@@ -1,0 +1,32 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_6619_5598)">
+<rect x="15" y="15" width="40" height="40" rx="20" fill="#FFEBD9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M35.2086 32.0834C34.4044 32.0834 33.7502 32.7375 33.7502 33.5425C33.7502 34.3467 34.4044 35 35.2086 35C36.0127 35 36.6669 34.3467 36.6669 33.5425C36.6669 32.7375 36.0127 32.0834 35.2086 32.0834ZM35.2086 36.25C33.7152 36.25 32.5002 35.0359 32.5002 33.5425C32.5002 32.0484 33.7152 30.8334 35.2086 30.8334C36.7019 30.8334 37.9169 32.0484 37.9169 33.5425C37.9169 35.0359 36.7019 36.25 35.2086 36.25Z" fill="url(#paint0_linear_6619_5598)"/>
+<mask id="mask0_6619_5598" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="28" y="26" width="15" height="17">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.3333 26.6667H42.0828V42.9167H28.3333V26.6667Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_6619_5598)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M35.2078 27.9167C32.1061 27.9167 29.5828 30.4642 29.5828 33.5942C29.5828 37.5767 34.2694 41.4567 35.2078 41.6634C36.1461 41.4559 40.8328 37.5759 40.8328 33.5942C40.8328 30.4642 38.3094 27.9167 35.2078 27.9167ZM35.2078 42.9167C33.7128 42.9167 28.3328 38.29 28.3328 33.5942C28.3328 29.7742 31.4169 26.6667 35.2078 26.6667C38.9986 26.6667 42.0828 29.7742 42.0828 33.5942C42.0828 38.29 36.7028 42.9167 35.2078 42.9167Z" fill="url(#paint1_linear_6619_5598)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_6619_5598" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="7.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6619_5598"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6619_5598" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_6619_5598" x1="35.2086" y1="30.8334" x2="35.2086" y2="36.25" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF7700"/>
+<stop offset="1" stop-color="#FF0000"/>
+</linearGradient>
+<linearGradient id="paint1_linear_6619_5598" x1="35.2078" y1="26.6667" x2="35.2078" y2="42.9167" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF7700"/>
+<stop offset="1" stop-color="#FF0000"/>
+</linearGradient>
+</defs>
+</svg>

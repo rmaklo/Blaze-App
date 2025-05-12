@@ -1,0 +1,184 @@
+:root{
+    --F1: "Unbounded";
+    --F2: "Space Grotesk";
+    --F3: "Space Mono";
+    --CB1: linear-gradient (#FF7700, #FF0000);
+    --CB2: linear-gradient (#00E1FF, #4000FF);
+    --C1: black;
+    --C2: #FFEBD9; 
+    --C3: #1A0C00;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background: var(--C1);
+        color: var(--C2);
+        font-family: var(--F1);
+        margin: 0;
+    }
+
+    /*Barre de navigation haut*/
+    nav{
+        display:flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        padding: 5vw;
+        background: var(--C1);
+        background: rgba(0, 0, 0, 0.66);
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.50);
+        backdrop-filter: blur(7.5px);
+    }
+    nav svg{
+        fill: var(--C2);
+    }
+    nav #icons-nav{
+        display: flex;
+        gap: 10px;
+    }
+
+    /*Titre des sections*/
+    .title{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    header h2{
+        padding-top: 0;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    h2{
+        font-weight: 400;
+        margin: 0;
+        padding-bottom: 5vw;
+        padding-top: 5vw;
+    }
+
+    /*Header*/
+    .main-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .main-cards img{
+        width: 90vw;
+        object-fit: contain;
+        border-radius: 13px;
+        position: relative;
+    }
+    #card-title{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        padding: 2vh;
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    #card-title p{
+        font-family: var(--F3);
+        color: var(--C2);
+        opacity: 66%;
+        font-size: 18px;
+        font-weight: 400px;
+        margin: 0;
+        margin-bottom: -5px;
+    }
+    #card-title h3{
+        font-family: var(--F2);
+        color: var(--C2);
+        font-size: 50px;
+        margin: 0;
+    }
+    #card{
+        display: flex;
+        align-items: flex-end;
+        filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.50));
+    }
+    #color-blur{
+        width: 100vw;
+        height: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: -2;
+        background: #4A4F64;
+        filter: blur(100px);
+    }
+
+    /*Réservations*/
+    .ticket #scroll{
+        padding-left: 20px;
+        padding-right: 20px;
+        overflow-x: scroll;
+    }
+    .ticket .cards-container{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        width: 770px;
+        height: 140px;
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 250px;
+        height: 140px;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 13px;
+        background: var(--C2);
+    }
+    .cards #QR-Code{
+        width: 120px;
+        height: 120px;
+        border-radius: 13px;
+        margin-left: 10px;
+        flex-shrink: 0;
+        aspect-ratio: 1/1;
+    }
+    #info-ticket{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #info-ticket svg{
+        fill: var(--C3);
+    }
+    #info-ticket p{
+        color: var(--C3);
+        margin: 0;
+    }
+
+    /*Footer bar*/
+    footer{
+    width: 83vw;
+    padding: 16px;
+    border-radius: 50px;
+    margin:20px;
+    background: rgba(26, 12, 0, 0.66);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(7.5px);
+    position: sticky;
+    bottom: 20px;
+    z-index: 2;
+    }
+    footer ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+}
